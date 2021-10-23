@@ -1,0 +1,42 @@
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #084D6E;
+    border-radius: 10px;
+    max-width: 350px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+}
+/* #calc, #churrasco{
+    display: inline-block;
+} */
+#calc{
+    max-width: 300px;
+}
+input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#churrasco{
+    float: right;
+    margin: auto;
+    margin-left: 25px;
+    margin-right: 0;
+    padding: 0;
+    /* display: block; */
+}
+#churras{
+    /* position: relative; */
+    max-width: 80px;
+}
+
+@media screen and (max-width: 360px){
+    #churrasco{
+        margin-left: 5px;
+    }
+}

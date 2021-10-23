@@ -8,9 +8,6 @@
     padding: 20px;
     display: flex;
 }
-/* #calc, #churrasco{
-    display: inline-block;
-} */
 #calc{
     max-width: 300px;
 }
@@ -28,10 +25,8 @@ input{
     margin-left: 25px;
     margin-right: 0;
     padding: 0;
-    /* display: block; */
 }
 #churras{
-    /* position: relative; */
     max-width: 80px;
 }
 

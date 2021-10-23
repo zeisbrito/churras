@@ -1,9 +1,3 @@
-// Regras
-// Carne: 400 g para menos de 6 horas, 650 g acima;
-// Cerveja: 1200 ml para menos de 6 horas, 2000 ml acima;
-// Bebidas: 1000 ml para menos de 6 horas, 1500 ml acima;
-// Crianças: consomem metade dos adultos.
-// ________________________________________________________
 
 let inputAdultos = document.getElementById("adultos");
 let inputNaoBebe = document.getElementById("naobebe");
